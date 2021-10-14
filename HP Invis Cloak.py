@@ -50,9 +50,6 @@ while cap.isOpened():
     combined = cv2.add(cloak, current_background)
     
     cv2.imshow("Final Output", combined)
-    cv2.imshow("Final Output", inverse_mask)
-    
-
     
     if cv2.waitKey(1) == ord ('q'):
         break
